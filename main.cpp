@@ -28,7 +28,6 @@ int main() {
   char kembali;
 
   do {
-    // system("cls"); 
     tampilkanMenu();
     
     cout << "Pilih menu (1-3): ";
@@ -57,7 +56,7 @@ int main() {
 
 void tampilkanMenu() {
   cout << "======================================" << endl;
-  cout << "   EMR KLINIK SEHAT (TERMINAL)        " << endl;
+  cout << "   EMR KLINIK SEHAT         " << endl;
   cout << "======================================" << endl;
   cout << "1. Registrasi Pasien Baru" << endl;
   cout << "2. Lihat Daftar Pasien (Sorted)" << endl;
