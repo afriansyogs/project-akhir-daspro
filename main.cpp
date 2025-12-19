@@ -10,7 +10,7 @@ struct RegisteredPasien {
   int umur;
   string penyakit;
   string categoryPenyakit;
-  double biaya;
+  float biaya;
 }; 
 typedef RegisteredPasien Pasien;
 
@@ -19,7 +19,7 @@ Pasien daftarPasien[maxPasien];
 int jumlahPasien = 0;
 
 void tampilkanMenu(); 
-double hitungBiaya(string jenisPenyakit, int umur); 
+float hitungBiaya(string jenisPenyakit, int umur); 
 void tambahPasien();
 void lihatDataPasien();
 
@@ -74,8 +74,8 @@ void dataPasien(Pasien pasien) {
 }
 
 
-double hitungBiaya(string jenisPenyakit, int umur) {
-  double biayaDasar = 0;
+float hitungBiaya(string jenisPenyakit, int umur) {
+  float biayaDasar = 0;
 
   if (jenisPenyakit == "berat") {
     biayaDasar = 500000;
