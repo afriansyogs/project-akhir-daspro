@@ -1,5 +1,4 @@
 # PROJECT AKHIR DASPRO
----
 
 ## EMR - Electronic Medical Record
 Sebuah sistem digital untuk mencatat, menyimpan, dan mengelola seluruh informasi kesehatan pasien.
